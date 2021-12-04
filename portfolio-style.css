@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,700&display=swap');
+
+:root{
+    --primary-color: #0F172A;
+--Nav-color: #F1F5F9;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--primary-color);
+    color: black;
+}
+
+.navigation{
+    background-color: var(--Nav-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.navigation .align{
+    list-style: none;
+    text-align: right;
+
+}
+
+.inline{
+    display: inline;
+    padding: 0.5rem;
+}
+
+.navlinks{
+text-decoration: none;
+color: black;
+}
+
+.navigation .navlinks-active{
+color: #A0522D;
+font-weight: bold;
+}
