@@ -10,7 +10,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: var(--primary-color);
     color: black;
-    padding: 0rem 0rem 10rem;
 }
 
 .navigation{
@@ -58,8 +57,9 @@ font-weight: bold;
 .talign{
     text-align: center;
     padding: 1rem 0rem 2rem;
-    background-color: var(--Nav-color);
+    background-color: #1E293B;
     border-radius: 0.5rem;
+    color: white;
 }
 
 .tcolor{
@@ -83,4 +83,17 @@ font-weight: bold;
     border-radius: 1rem;
     text-decoration: none;
     color: var(--Nav-color)
+}
+
+.falign{
+    text-align: center;
+    background-color: var(--Nav-color);
+    padding: 0.5rem 1rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.finline{
+    display: inline;
+    padding: 0rem 1.5rem;
 }
