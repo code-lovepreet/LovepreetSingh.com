@@ -38,3 +38,16 @@ color: black;
 color: #A0522D;
 font-weight: bold;
 }
+
+.hstyle{
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem;
+}
+
+.himage{
+    margin: auto;
+    display: block;
+    max-width: 500px;
+    padding: 1 rem;
+}
