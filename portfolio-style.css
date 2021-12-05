@@ -105,3 +105,15 @@ font-weight: bold;
 .finline-text{
     font-weight: normal;
 }
+
+.vblink{
+    color: var(--primary-color);
+    text-decoration: none;
+    background-color: white;
+    padding: 0rem 0.5rem 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.d{
+    text-decoration: underline;
+}
